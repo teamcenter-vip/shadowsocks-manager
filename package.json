@@ -1,5 +1,5 @@
 {
-  "name": "shadowsocks-manager",
+  "name": "shadowsocks-manager-jason",
   "version": "0.35.16",
   "description": "A shadowsocks manager tool for multi user and traffic control.",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "check": "eslint .",
     "fix": "eslint . --fix"
   },
-  "author": "Gu Yuteng <igyteng@gmail.com>",
+  "author": "Jason <39853540@qq.com>",
   "license": "GPL-3.0",
   "keywords": [
     "ssmgr",

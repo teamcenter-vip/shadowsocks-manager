@@ -166,6 +166,9 @@ Usage: ssmgr [options]
 
 First, ssmgr will read the config file in `--config`, and other parameters(`-detsmp`) will replace the config file values.
 
+### pm2
+pm2 --name "ss" -f start ssmgr -c ~/.ssmgr/ss.yml
+pm2 --name "webgui" -f start ssmgr -c ~/.ssmgr/webgui.yml
 ### Translate
 
 If your want to help to translate it to other languages, please edit files [here](https://github.com/shadowsocks/shadowsocks-manager/tree/dev/plugins/webgui/public/translate) and give me a pull request.
